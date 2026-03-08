@@ -3,6 +3,14 @@ import { Paintbrush, Printer, Wrench, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import FadeInSection from "@/components/FadeInSection";
+import banerStoikiImg from "@/assets/products/baner-stoiki.jpg";
+import popUpSteniImg from "@/assets/products/pop-up-steni.jpg";
+import tabeliImg from "@/assets/products/tabeli.jpg";
+import obemniBukviImg from "@/assets/products/obemni-bukvi.jpg";
+import snapRamkiImg from "@/assets/products/snap-ramki.jpg";
+import stoperiABordImg from "@/assets/products/stoperi-a-bord.jpg";
+import oblepvaneFolioImg from "@/assets/products/oblepvane-folio.jpg";
+import poligrafiaImg from "@/assets/products/poligrafia.jpg";
 
 const services = [
   { icon: Paintbrush, title: "Брандиране", desc: "Цялостно брандиране на бизнеса — от визия до реализация." },
