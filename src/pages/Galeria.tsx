@@ -19,6 +19,8 @@ import folioHladilnik3 from "@/assets/gallery/folio-hladilnik-3.jpg";
 import teniska1 from "@/assets/gallery/teniska-1.jpg";
 import teniska2 from "@/assets/gallery/teniska-2.jpg";
 import teniska3 from "@/assets/gallery/teniska-3.jpg";
+import listovki1 from "@/assets/gallery/listovki-1.jpg";
+import listovki2 from "@/assets/gallery/listovki-2.jpg";
 
 type GalleryImage = {
   src: string | null;
