@@ -21,6 +21,15 @@ import teniska2 from "@/assets/gallery/teniska-2.jpg";
 import teniska3 from "@/assets/gallery/teniska-3.jpg";
 import listovki1 from "@/assets/gallery/listovki-1.jpg";
 import listovki2 from "@/assets/gallery/listovki-2.jpg";
+import kanava1 from "@/assets/gallery/kanava-1.jpg";
+import kanava2 from "@/assets/gallery/kanava-2.jpg";
+import kanava3 from "@/assets/gallery/kanava-3.jpg";
+import kanava4 from "@/assets/gallery/kanava-4.jpg";
+import kanava5 from "@/assets/gallery/kanava-5.jpg";
+import kanava6 from "@/assets/gallery/kanava-6.jpg";
+import kanava7 from "@/assets/gallery/kanava-7.jpg";
+import kanava8 from "@/assets/gallery/kanava-8.jpg";
+import kanava9 from "@/assets/gallery/kanava-9.jpg";
 
 type GalleryImage = {
   src: string | null;
@@ -42,7 +51,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Колаж или снимка на платно (канава)",
-    images: [{ src: null }, { src: null }, { src: null }],
+    description:
+      "Искате ли да направите уникален подарък? Изберете снимка в рамка, снимка на платно (канава) при нас. Картините са напечатани върху памучна висококачествена канава и опънати върху естествена дървена подрамка. Мастилата са водоустойчиви, екологични и изключително качествени.",
+    images: [{ src: kanava1 }, { src: kanava2 }, { src: kanava3 }, { src: kanava4 }, { src: kanava5 }, { src: kanava6 }, { src: kanava7 }, { src: kanava8 }, { src: kanava9 }],
   },
   {
     title: "Печат на листовки и флаери",
