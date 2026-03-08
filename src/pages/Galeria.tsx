@@ -13,6 +13,9 @@ import trotoarnaTabela3 from "@/assets/gallery/trotoarna-tabela-3.jpg";
 import brooklyn1 from "@/assets/gallery/brooklyn-1.jpg";
 import brooklyn2 from "@/assets/gallery/brooklyn-2.jpg";
 import brooklyn3 from "@/assets/gallery/brooklyn-3.jpg";
+import folioHladilnik1 from "@/assets/gallery/folio-hladilnik-1.jpg";
+import folioHladilnik2 from "@/assets/gallery/folio-hladilnik-2.jpg";
+import folioHladilnik3 from "@/assets/gallery/folio-hladilnik-3.jpg";
 
 type GalleryImage = {
   src: string | null;
@@ -46,7 +49,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Печат, ламиниране и монтаж на фолио на хладилник",
-    images: [{ src: null }, { src: null }, { src: null }],
+    description:
+      "Печат, ламиниране и монтаж на фолио на хладилник на магазин Бруклин Маркет в България. Фолиото е PVC продукт, издръжлив на външни условия, който е и изключително подходящ за облепване на всякакви повърхности. Предлагаме всякакви монтажи, както на лепенки за витрини, така и на винил, винилова мрежа и др.",
+    images: [{ src: folioHladilnik1 }, { src: folioHladilnik2 }, { src: folioHladilnik3 }],
   },
   {
     title: "Външна реклама на магазин Бруклин Маркет",
