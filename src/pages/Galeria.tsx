@@ -31,6 +31,7 @@ import kanava6 from "@/assets/gallery/kanava-6.jpg";
 import kanava7 from "@/assets/gallery/kanava-7.jpg";
 import kanava8 from "@/assets/gallery/kanava-8.jpg";
 import kanava9 from "@/assets/gallery/kanava-9.jpg";
+import kanava10 from "@/assets/gallery/kanava-10.jpg";
 
 type GalleryImage = {
   src: string | null;
@@ -54,7 +55,7 @@ const galleryCategories: GalleryCategory[] = [
     title: "Колаж или снимка на платно (канава)",
     description:
       "Искате ли да направите уникален подарък? Изберете снимка в рамка, снимка на платно (канава) при нас. Картините са напечатани върху памучна висококачествена канава и опънати върху естествена дървена подрамка. Мастилата са водоустойчиви, екологични и изключително качествени.",
-    images: [{ src: kanava1 }, { src: kanava2 }, { src: kanava3 }, { src: kanava4 }, { src: kanava5 }, { src: kanava6 }, { src: kanava7 }, { src: kanava8 }, { src: kanava9 }],
+    images: [{ src: kanava1 }, { src: kanava2 }, { src: kanava3 }, { src: kanava4 }, { src: kanava5 }, { src: kanava6 }, { src: kanava7 }, { src: kanava8 }, { src: kanava9 }, { src: kanava10 }],
   },
   {
     title: "Печат на листовки и флаери",
