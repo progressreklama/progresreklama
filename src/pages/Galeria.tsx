@@ -50,7 +50,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Външна реклама на магазин Бруклин Маркет",
-    images: [{ src: null }, { src: null }, { src: null }, { src: null }],
+    description:
+      "Външна реклама на магазин Бруклин Маркет в България. Можем да изготвим за Вас рекламни табели светещи или несветещи, обемни символи, трансперанти, билбордове, светещи реклами, надписи от фолио.",
+    images: [{ src: brooklyn1 }, { src: brooklyn2 }, { src: brooklyn3 }],
   },
   {
     title: "Тротоарна табела",
