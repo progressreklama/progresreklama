@@ -32,8 +32,8 @@ const Produkti = () => (
         {products.map((p, i) => (
           <FadeInSection key={i}>
             <Card className="group hover:shadow-lg transition-all hover:-translate-y-1 duration-300 overflow-hidden h-full">
-              <div className="aspect-[4/3] bg-muted flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Снимка</span>
+              <div className="aspect-[4/3] bg-muted overflow-hidden">
+                <img src={p.img} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
               </div>
               <CardContent className="p-5 flex flex-col gap-3">
                 <h3 className="font-semibold group-hover:text-primary transition-colors">{p.title}</h3>

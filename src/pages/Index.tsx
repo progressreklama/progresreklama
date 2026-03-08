@@ -102,8 +102,8 @@ const Index = () => {
               <FadeInSection key={i}>
                 <Link to={`/produkt/${p.slug}`}>
                   <Card className="group cursor-pointer hover:shadow-lg transition-all hover:-translate-y-1 duration-300 overflow-hidden">
-                    <div className="aspect-[4/3] bg-muted flex items-center justify-center">
-                      <span className="text-muted-foreground text-sm">Снимка</span>
+                    <div className="aspect-[4/3] bg-muted overflow-hidden">
+                      <img src={p.img} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                     </div>
                     <CardContent className="p-4">
                       <h3 className="text-sm md:text-base font-semibold group-hover:text-primary transition-colors">{p.title}</h3>
