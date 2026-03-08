@@ -16,6 +16,9 @@ import brooklyn3 from "@/assets/gallery/brooklyn-3.jpg";
 import folioHladilnik1 from "@/assets/gallery/folio-hladilnik-1.jpg";
 import folioHladilnik2 from "@/assets/gallery/folio-hladilnik-2.jpg";
 import folioHladilnik3 from "@/assets/gallery/folio-hladilnik-3.jpg";
+import teniska1 from "@/assets/gallery/teniska-1.jpg";
+import teniska2 from "@/assets/gallery/teniska-2.jpg";
+import teniska3 from "@/assets/gallery/teniska-3.jpg";
 
 type GalleryImage = {
   src: string | null;
@@ -45,7 +48,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Тениска или суичър с печат",
-    images: [{ src: null }, { src: null }],
+    description:
+      "Искате уникална тениска или суичър? Ние го превръщаме в реалност! Печатаме лога и фирмени дизайни, снимки и илюстрации, персонални идеи. Работим за Варна, София и цяла България!",
+    images: [{ src: teniska1 }, { src: teniska2 }, { src: teniska3 }],
   },
   {
     title: "Печат, ламиниране и монтаж на фолио на хладилник",
