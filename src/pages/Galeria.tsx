@@ -10,6 +10,9 @@ import pechatenCeh5 from "@/assets/gallery/pechaten-ceh-5.jpg";
 import trotoarnaTabela1 from "@/assets/gallery/trotoarna-tabela-1.jpg";
 import trotoarnaTabela2 from "@/assets/gallery/trotoarna-tabela-2.jpg";
 import trotoarnaTabela3 from "@/assets/gallery/trotoarna-tabela-3.jpg";
+import brooklyn1 from "@/assets/gallery/brooklyn-1.jpg";
+import brooklyn2 from "@/assets/gallery/brooklyn-2.jpg";
+import brooklyn3 from "@/assets/gallery/brooklyn-3.jpg";
 
 type GalleryImage = {
   src: string | null;
@@ -47,7 +50,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Външна реклама на магазин Бруклин Маркет",
-    images: [{ src: null }, { src: null }, { src: null }, { src: null }],
+    description:
+      "Външна реклама на магазин Бруклин Маркет в България. Можем да изготвим за Вас рекламни табели светещи или несветещи, обемни символи, трансперанти, билбордове, светещи реклами, надписи от фолио.",
+    images: [{ src: brooklyn1 }, { src: brooklyn2 }, { src: brooklyn3 }],
   },
   {
     title: "Тротоарна табела",
