@@ -130,7 +130,7 @@ const Index = () => {
                   Обадете се
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button size="lg" variant="outline" asChild className="border-primary-foreground text-foreground hover:bg-primary-foreground hover:text-primary">
                 <a href="mailto:progressreklama1@gmail.com" className="gap-2">
                   <Mail className="h-4 w-4" />
                   Имейл
