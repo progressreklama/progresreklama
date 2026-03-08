@@ -7,6 +7,9 @@ import pechatenCeh2 from "@/assets/gallery/pechaten-ceh-2.jpg";
 import pechatenCeh3 from "@/assets/gallery/pechaten-ceh-3.jpg";
 import pechatenCeh4 from "@/assets/gallery/pechaten-ceh-4.jpg";
 import pechatenCeh5 from "@/assets/gallery/pechaten-ceh-5.jpg";
+import trotoarnaTabela1 from "@/assets/gallery/trotoarna-tabela-1.jpg";
+import trotoarnaTabela2 from "@/assets/gallery/trotoarna-tabela-2.jpg";
+import trotoarnaTabela3 from "@/assets/gallery/trotoarna-tabela-3.jpg";
 
 type GalleryImage = {
   src: string | null;
@@ -48,7 +51,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Тротоарна табела",
-    images: [{ src: null }, { src: null }],
+    description:
+      "Тротоарна табела A1 с 2 плаката A1, изработени от хартия. Ветроустойчива, двустранна тротоарна табела A1 с защитно фолио. Основа за пълнене с много висока стабилност. Мобилна употреба благодарение на вградените колелца. Рамката е монтирана на пружини, благодарение на които табелата се регулира спрямо вятъра. Снап рамка позволява вмъкване/размяна на плакат в рамките на няколко секунди.",
+    images: [{ src: trotoarnaTabela1 }, { src: trotoarnaTabela2 }, { src: trotoarnaTabela3 }],
   },
   {
     title: "Печатен цех",
