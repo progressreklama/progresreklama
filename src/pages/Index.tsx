@@ -3,6 +3,14 @@ import { Paintbrush, Printer, Wrench, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import FadeInSection from "@/components/FadeInSection";
+import banerStoikiImg from "@/assets/products/baner-stoiki.jpg";
+import popUpSteniImg from "@/assets/products/pop-up-steni.jpg";
+import tabeliImg from "@/assets/products/tabeli.jpg";
+import obemniBukviImg from "@/assets/products/obemni-bukvi.jpg";
+import snapRamkiImg from "@/assets/products/snap-ramki.jpg";
+import stoperiABordImg from "@/assets/products/stoperi-a-bord.jpg";
+import oblepvaneFolioImg from "@/assets/products/oblepvane-folio.jpg";
+import poligrafiaImg from "@/assets/products/poligrafia.jpg";
 
 const services = [
   { icon: Paintbrush, title: "Брандиране", desc: "Цялостно брандиране на бизнеса — от визия до реализация." },
@@ -11,14 +19,14 @@ const services = [
 ];
 
 const products = [
-  { title: "Банер стойки", slug: "baner-stoiki" },
-  { title: "POP UP стени", slug: "pop-up-steni" },
-  { title: "Табели", slug: "tabeli" },
-  { title: "Обемни букви", slug: "obemni-bukvi" },
-  { title: "Снап рамки и лайсни", slug: "snap-ramki" },
-  { title: "Стопери А-Борд", slug: "stoperi-a-bord" },
-  { title: "Облепване със фолио", slug: "oblepvane-folio" },
-  { title: "Полиграфия", slug: "poligrafia" },
+  { title: "Банер стойки", slug: "baner-stoiki", img: banerStoikiImg },
+  { title: "POP UP стени", slug: "pop-up-steni", img: popUpSteniImg },
+  { title: "Табели", slug: "tabeli", img: tabeliImg },
+  { title: "Обемни букви", slug: "obemni-bukvi", img: obemniBukviImg },
+  { title: "Снап-рамки", slug: "snap-ramki", img: snapRamkiImg },
+  { title: "Стопери А-Борд", slug: "stoperi-a-bord", img: stoperiABordImg },
+  { title: "Облепване със фолио", slug: "oblepvane-folio", img: oblepvaneFolioImg },
+  { title: "Полиграфия", slug: "poligrafia", img: poligrafiaImg },
 ];
 
 const Index = () => {
@@ -94,8 +102,8 @@ const Index = () => {
               <FadeInSection key={i}>
                 <Link to={`/produkt/${p.slug}`}>
                   <Card className="group cursor-pointer hover:shadow-lg transition-all hover:-translate-y-1 duration-300 overflow-hidden">
-                    <div className="aspect-[4/3] bg-muted flex items-center justify-center">
-                      <span className="text-muted-foreground text-sm">Снимка</span>
+                    <div className="aspect-[4/3] bg-muted overflow-hidden">
+                      <img src={p.img} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                     </div>
                     <CardContent className="p-4">
                       <h3 className="text-sm md:text-base font-semibold group-hover:text-primary transition-colors">{p.title}</h3>
