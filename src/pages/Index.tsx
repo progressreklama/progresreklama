@@ -59,9 +59,6 @@ const Index = () => {
                   <Link to="/kontakti">Свържете се с нас</Link>
                 </Button>
               </div>
-              <p className="text-xs text-muted-foreground mt-8">
-                Съфинансирано от Европейския съюз
-              </p>
             </div>
           </FadeInSection>
         </div>
