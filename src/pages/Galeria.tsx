@@ -46,7 +46,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Печат на листовки и флаери",
-    images: [{ src: null }, { src: null }, { src: null }],
+    description:
+      "Печат на флаери, флаери евроформат и листовки. Срок за изпълнение на поръчката — от 1 ден. Експресен печат. Дистанционна поръчка и изпращане в България.",
+    images: [{ src: listovki1 }, { src: listovki2 }],
   },
   {
     title: "Тениска или суичър с печат",
