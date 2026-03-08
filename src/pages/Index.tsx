@@ -19,14 +19,14 @@ const services = [
 ];
 
 const products = [
-  { title: "Банер стойки", slug: "baner-stoiki" },
-  { title: "POP UP стени", slug: "pop-up-steni" },
-  { title: "Табели", slug: "tabeli" },
-  { title: "Обемни букви", slug: "obemni-bukvi" },
-  { title: "Снап рамки и лайсни", slug: "snap-ramki" },
-  { title: "Стопери А-Борд", slug: "stoperi-a-bord" },
-  { title: "Облепване със фолио", slug: "oblepvane-folio" },
-  { title: "Полиграфия", slug: "poligrafia" },
+  { title: "Банер стойки", slug: "baner-stoiki", img: banerStoikiImg },
+  { title: "POP UP стени", slug: "pop-up-steni", img: popUpSteniImg },
+  { title: "Табели", slug: "tabeli", img: tabeliImg },
+  { title: "Обемни букви", slug: "obemni-bukvi", img: obemniBukviImg },
+  { title: "Снап-рамки", slug: "snap-ramki", img: snapRamkiImg },
+  { title: "Стопери А-Борд", slug: "stoperi-a-bord", img: stoperiABordImg },
+  { title: "Облепване със фолио", slug: "oblepvane-folio", img: oblepvaneFolioImg },
+  { title: "Полиграфия", slug: "poligrafia", img: poligrafiaImg },
 ];
 
 const Index = () => {
