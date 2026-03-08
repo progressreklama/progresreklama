@@ -31,6 +31,7 @@ import kanava6 from "@/assets/gallery/kanava-6.jpg";
 import kanava7 from "@/assets/gallery/kanava-7.jpg";
 import kanava8 from "@/assets/gallery/kanava-8.jpg";
 import kanava9 from "@/assets/gallery/kanava-9.jpg";
+import kanava10 from "@/assets/gallery/kanava-10.jpg";
 
 type GalleryImage = {
   src: string | null;
