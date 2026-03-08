@@ -51,7 +51,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Колаж или снимка на платно (канава)",
-    images: [{ src: null }, { src: null }, { src: null }],
+    description:
+      "Искате ли да направите уникален подарък? Изберете снимка в рамка, снимка на платно (канава) при нас. Картините са напечатани върху памучна висококачествена канава и опънати върху естествена дървена подрамка. Мастилата са водоустойчиви, екологични и изключително качествени.",
+    images: [{ src: kanava1 }, { src: kanava2 }, { src: kanava3 }, { src: kanava4 }, { src: kanava5 }, { src: kanava6 }, { src: kanava7 }, { src: kanava8 }, { src: kanava9 }],
   },
   {
     title: "Печат на листовки и флаери",
