@@ -10,6 +10,9 @@ import pechatenCeh5 from "@/assets/gallery/pechaten-ceh-5.jpg";
 import trotoarnaTabela1 from "@/assets/gallery/trotoarna-tabela-1.jpg";
 import trotoarnaTabela2 from "@/assets/gallery/trotoarna-tabela-2.jpg";
 import trotoarnaTabela3 from "@/assets/gallery/trotoarna-tabela-3.jpg";
+import brooklyn1 from "@/assets/gallery/brooklyn-1.jpg";
+import brooklyn2 from "@/assets/gallery/brooklyn-2.jpg";
+import brooklyn3 from "@/assets/gallery/brooklyn-3.jpg";
 
 type GalleryImage = {
   src: string | null;
