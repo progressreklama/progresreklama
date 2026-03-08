@@ -1,5 +1,6 @@
 import { Zap, Palette, ShieldCheck } from "lucide-react";
 import FadeInSection from "@/components/FadeInSection";
+import zaNasImage from "@/assets/za-nas.jpg";
 
 const ZaNas = () => (
   <div className="py-16 lg:py-24">
