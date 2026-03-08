@@ -16,6 +16,9 @@ import brooklyn3 from "@/assets/gallery/brooklyn-3.jpg";
 import folioHladilnik1 from "@/assets/gallery/folio-hladilnik-1.jpg";
 import folioHladilnik2 from "@/assets/gallery/folio-hladilnik-2.jpg";
 import folioHladilnik3 from "@/assets/gallery/folio-hladilnik-3.jpg";
+import teniska1 from "@/assets/gallery/teniska-1.jpg";
+import teniska2 from "@/assets/gallery/teniska-2.jpg";
+import teniska3 from "@/assets/gallery/teniska-3.jpg";
 
 type GalleryImage = {
   src: string | null;
