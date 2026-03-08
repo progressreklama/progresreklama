@@ -124,7 +124,7 @@ const Index = () => {
               Готови ли сте за вашия проект?
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="outline" asChild className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button size="lg" variant="outline" asChild className="border-primary-foreground text-foreground hover:bg-primary-foreground hover:text-primary">
                 <a href="tel:+359876160488" className="gap-2">
                   <Phone className="h-4 w-4" />
                   Обадете се
