@@ -12,14 +12,14 @@ import oblepvaneFolioImg from "@/assets/products/oblepvane-folio.jpg";
 import poligrafiaImg from "@/assets/products/poligrafia.jpg";
 
 const products = [
-  { title: "Банер стойки", slug: "baner-stoiki", desc: "Мобилни рекламни стойки за изложения и промоции." },
-  { title: "POP UP стени", slug: "pop-up-steni", desc: "Сгъваеми POP UP стени за панаири и презентации." },
-  { title: "Табели", slug: "tabeli", desc: "Светещи и несветещи табели за вътрешна и външна реклама." },
-  { title: "Обемни букви", slug: "obemni-bukvi", desc: "Обемни букви от различни материали — стиропор, MDF, метал." },
-  { title: "Снап рамки и лайсни", slug: "snap-ramki", desc: "Алуминиеви рамки за лесна смяна на постери и реклами." },
-  { title: "Стопери А-Борд", slug: "stoperi-a-bord", desc: "Тротоарни стопери и А-борд табели за улични реклами." },
-  { title: "Облепване със фолио", slug: "oblepvane-folio", desc: "Облепване на витрини, автомобили и фасади с фолио." },
-  { title: "Полиграфия", slug: "poligrafia", desc: "Визитки, флаери, листовки, календари и печатни материали." },
+  { title: "Банер стойки", slug: "baner-stoiki", desc: "Мобилни рекламни стойки за изложения и промоции.", img: banerStoikiImg },
+  { title: "POP UP стени", slug: "pop-up-steni", desc: "Сгъваеми POP UP стени за панаири и презентации.", img: popUpSteniImg },
+  { title: "Табели", slug: "tabeli", desc: "Светещи и несветещи табели за вътрешна и външна реклама.", img: tabeliImg },
+  { title: "Обемни букви", slug: "obemni-bukvi", desc: "Обемни букви от различни материали — стиропор, MDF, метал.", img: obemniBukviImg },
+  { title: "Снап-рамки", slug: "snap-ramki", desc: "Алуминиеви рамки за лесна смяна на постери и реклами.", img: snapRamkiImg },
+  { title: "Стопери А-Борд", slug: "stoperi-a-bord", desc: "Тротоарни стопери и А-борд табели за улични реклами.", img: stoperiABordImg },
+  { title: "Облепване със фолио", slug: "oblepvane-folio", desc: "Облепване на витрини, автомобили и фасади с фолио.", img: oblepvaneFolioImg },
+  { title: "Полиграфия", slug: "poligrafia", desc: "Визитки, флаери, листовки, календари и печатни материали.", img: poligrafiaImg },
 ];
 
 const Produkti = () => (
