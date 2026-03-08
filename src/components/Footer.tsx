@@ -9,9 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo & Tagline */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-xl font-bold text-primary">Progress</span>
-              <span className="text-xl font-bold text-secondary">Reklama</span>
+            <div className="mb-4">
+              <img src={logo} alt="Progress Reklama" className="h-12 w-auto brightness-0 invert" />
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
               От идеята, през решението — до Вашия успех.
