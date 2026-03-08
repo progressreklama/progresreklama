@@ -13,6 +13,9 @@ import trotoarnaTabela3 from "@/assets/gallery/trotoarna-tabela-3.jpg";
 import brooklyn1 from "@/assets/gallery/brooklyn-1.jpg";
 import brooklyn2 from "@/assets/gallery/brooklyn-2.jpg";
 import brooklyn3 from "@/assets/gallery/brooklyn-3.jpg";
+import folioHladilnik1 from "@/assets/gallery/folio-hladilnik-1.jpg";
+import folioHladilnik2 from "@/assets/gallery/folio-hladilnik-2.jpg";
+import folioHladilnik3 from "@/assets/gallery/folio-hladilnik-3.jpg";
 
 type GalleryImage = {
   src: string | null;
