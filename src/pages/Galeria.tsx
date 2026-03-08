@@ -2,6 +2,11 @@ import { useState } from "react";
 import FadeInSection from "@/components/FadeInSection";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import tabelaMenu1 from "@/assets/gallery/tabela-menu-1.jpg";
+import pechatenCeh1 from "@/assets/gallery/pechaten-ceh-1.jpg";
+import pechatenCeh2 from "@/assets/gallery/pechaten-ceh-2.jpg";
+import pechatenCeh3 from "@/assets/gallery/pechaten-ceh-3.jpg";
+import pechatenCeh4 from "@/assets/gallery/pechaten-ceh-4.jpg";
+import pechatenCeh5 from "@/assets/gallery/pechaten-ceh-5.jpg";
 
 type GalleryImage = {
   src: string | null;
