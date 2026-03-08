@@ -7,6 +7,9 @@ import pechatenCeh2 from "@/assets/gallery/pechaten-ceh-2.jpg";
 import pechatenCeh3 from "@/assets/gallery/pechaten-ceh-3.jpg";
 import pechatenCeh4 from "@/assets/gallery/pechaten-ceh-4.jpg";
 import pechatenCeh5 from "@/assets/gallery/pechaten-ceh-5.jpg";
+import trotoarnaTabela1 from "@/assets/gallery/trotoarna-tabela-1.jpg";
+import trotoarnaTabela2 from "@/assets/gallery/trotoarna-tabela-2.jpg";
+import trotoarnaTabela3 from "@/assets/gallery/trotoarna-tabela-3.jpg";
 
 type GalleryImage = {
   src: string | null;
