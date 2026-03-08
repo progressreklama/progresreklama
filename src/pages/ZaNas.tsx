@@ -1,5 +1,6 @@
 import { Zap, Palette, ShieldCheck } from "lucide-react";
 import FadeInSection from "@/components/FadeInSection";
+import zaNasImage from "@/assets/za-nas.jpg";
 
 const ZaNas = () => (
   <div className="py-16 lg:py-24">
@@ -11,8 +12,8 @@ const ZaNas = () => (
       <FadeInSection>
         <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-center mb-16">
           <div className="flex-1">
-            <div className="aspect-[4/3] bg-muted rounded-lg flex items-center justify-center">
-              <span className="text-muted-foreground">Снимка на екипа</span>
+            <div className="aspect-[4/3] bg-muted rounded-lg overflow-hidden">
+              <img src={zaNasImage} alt="Производствена база на Progress Reklama" className="w-full h-full object-cover" />
             </div>
           </div>
           <div className="flex-1">
