@@ -2,16 +2,24 @@ import { useParams, Link } from "react-router-dom";
 import { Phone, Mail, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import FadeInSection from "@/components/FadeInSection";
+import banerStoikiImg from "@/assets/products/baner-stoiki.jpg";
+import popUpSteniImg from "@/assets/products/pop-up-steni.jpg";
+import tabeliImg from "@/assets/products/tabeli.jpg";
+import obemniBukviImg from "@/assets/products/obemni-bukvi.jpg";
+import snapRamkiImg from "@/assets/products/snap-ramki.jpg";
+import stoperiABordImg from "@/assets/products/stoperi-a-bord.jpg";
+import oblepvaneFolioImg from "@/assets/products/oblepvane-folio.jpg";
+import poligrafiaImg from "@/assets/products/poligrafia.jpg";
 
-const productsData: Record<string, { title: string; category: string; desc: string }> = {
-  "baner-stoiki": { title: "Банер стойки", category: "Стойки", desc: "Мобилни рекламни банер стойки, подходящи за изложения, панаири, промоции и фирмени събития. Лесни за сглобяване и транспортиране, с висококачествен печат." },
-  "pop-up-steni": { title: "POP UP стени", category: "Стени", desc: "Сгъваеми POP UP стени за панаири и презентации. Голяма визуална площ, лесно сглобяване, професионален вид." },
-  "tabeli": { title: "Табели", category: "Табели", desc: "Светещи и несветещи табели за вътрешна и външна реклама. Изработени от качествени материали с дълъг живот." },
-  "obemni-bukvi": { title: "Обемни букви", category: "Букви", desc: "Обемни рекламни букви от различни материали — стиропор, MDF, PVC, метал. Подходящи за фасади, интериор и събития." },
-  "snap-ramki": { title: "Снап рамки и лайсни", category: "Рамки", desc: "Алуминиеви снап рамки за лесна и бърза смяна на постери и рекламни материали." },
-  "stoperi-a-bord": { title: "Стопери А-Борд", category: "Тротоарни табели", desc: "Тротоарни стопери и А-борд табели за улични реклами. Здрави, устойчиви на вятър, лесни за преместване." },
-  "oblepvane-folio": { title: "Облепване със фолио", category: "Фолио", desc: "Професионално облепване на витрини, автомобили и фасади с висококачествено фолио. Рекламни надписи, цялостно брандиране." },
-  "poligrafia": { title: "Полиграфия", category: "Печат", desc: "Визитки, флаери, листовки, календари, брошури и всякакви печатни рекламни материали с ярки цветове и високо качество." },
+const productsData: Record<string, { title: string; category: string; desc: string; img: string }> = {
+  "baner-stoiki": { title: "Банер стойки", category: "Стойки", desc: "Мобилни рекламни банер стойки, подходящи за изложения, панаири, промоции и фирмени събития. Лесни за сглобяване и транспортиране, с висококачествен печат.", img: banerStoikiImg },
+  "pop-up-steni": { title: "POP UP стени", category: "Стени", desc: "Сгъваеми POP UP стени за панаири и презентации. Голяма визуална площ, лесно сглобяване, професионален вид.", img: popUpSteniImg },
+  "tabeli": { title: "Табели", category: "Табели", desc: "Светещи и несветещи табели за вътрешна и външна реклама. Изработени от качествени материали с дълъг живот.", img: tabeliImg },
+  "obemni-bukvi": { title: "Обемни букви", category: "Букви", desc: "Обемни рекламни букви от различни материали — стиропор, MDF, PVC, метал. Подходящи за фасади, интериор и събития.", img: obemniBukviImg },
+  "snap-ramki": { title: "Снап рамки и лайсни", category: "Рамки", desc: "Алуминиеви снап рамки за лесна и бърза смяна на постери и рекламни материали.", img: snapRamkiImg },
+  "stoperi-a-bord": { title: "Стопери А-Борд", category: "Тротоарни табели", desc: "Тротоарни стопери и А-борд табели за улични реклами. Здрави, устойчиви на вятър, лесни за преместване.", img: stoperiABordImg },
+  "oblepvane-folio": { title: "Облепване със фолио", category: "Фолио", desc: "Професионално облепване на витрини, автомобили и фасади с висококачествено фолио. Рекламни надписи, цялостно брандиране.", img: oblepvaneFolioImg },
+  "poligrafia": { title: "Полиграфия", category: "Печат", desc: "Визитки, флаери, листовки, календари, брошури и всякакви печатни рекламни материали с ярки цветове и високо качество.", img: poligrafiaImg },
 };
 
 const ProduktDetail = () => {
@@ -38,15 +46,8 @@ const ProduktDetail = () => {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Image */}
             <div className="space-y-4">
-              <div className="aspect-[4/3] bg-muted rounded-lg flex items-center justify-center">
-                <span className="text-muted-foreground">Основна снимка</span>
-              </div>
-              <div className="grid grid-cols-4 gap-2">
-                {[1, 2, 3, 4].map((n) => (
-                  <div key={n} className="aspect-square bg-muted rounded flex items-center justify-center">
-                    <span className="text-xs text-muted-foreground">{n}</span>
-                  </div>
-                ))}
+              <div className="aspect-[4/3] bg-muted rounded-lg overflow-hidden">
+                <img src={product.img} alt={product.title} className="w-full h-full object-cover" />
               </div>
             </div>
 
