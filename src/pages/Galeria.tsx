@@ -2,6 +2,7 @@ import { useState } from "react";
 import FadeInSection from "@/components/FadeInSection";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import tabelaMenu1 from "@/assets/gallery/tabela-menu-1.jpg";
+import tabelaMenu2 from "@/assets/gallery/tabela-menu-2.jpg";
 import pechatenCeh1 from "@/assets/gallery/pechaten-ceh-1.jpg";
 import pechatenCeh2 from "@/assets/gallery/pechaten-ceh-2.jpg";
 import pechatenCeh3 from "@/assets/gallery/pechaten-ceh-3.jpg";
@@ -47,7 +48,7 @@ const galleryCategories: GalleryCategory[] = [
     title: "Табела със меню",
     description:
       "Табела със меню за кафе \"Меренга\". Табелката е изработена от висококачествен ПВЦ и облепена със фолио с печат. Върху табелата могат да бъдат гравирани: работното време на обекта, логото на фирмата, адрес, телефон и друга контактна информация, QR код за бърз достъп до уебсайт или социални мрежи. Табелите са подходящи за магазини, офиси, ресторанти, фризьорски салони, студиа за услуги, хотели.",
-    images: [{ src: tabelaMenu1 }],
+    images: [{ src: tabelaMenu1 }, { src: tabelaMenu2 }],
   },
   {
     title: "Колаж или снимка на платно (канава)",
