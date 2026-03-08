@@ -2,6 +2,11 @@ import { useState } from "react";
 import FadeInSection from "@/components/FadeInSection";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import tabelaMenu1 from "@/assets/gallery/tabela-menu-1.jpg";
+import pechatenCeh1 from "@/assets/gallery/pechaten-ceh-1.jpg";
+import pechatenCeh2 from "@/assets/gallery/pechaten-ceh-2.jpg";
+import pechatenCeh3 from "@/assets/gallery/pechaten-ceh-3.jpg";
+import pechatenCeh4 from "@/assets/gallery/pechaten-ceh-4.jpg";
+import pechatenCeh5 from "@/assets/gallery/pechaten-ceh-5.jpg";
 
 type GalleryImage = {
   src: string | null;
@@ -47,7 +52,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Печатен цех",
-    images: [{ src: null }, { src: null }, { src: null }],
+    description:
+      "Нашият печатен цех е оборудван с професионални широкоформатни принтери за висококачествен печат върху различни материали — винил, фолио, платно, PVC и други. Разполагаме с модерна техника за печат, ламиниране и рязане.",
+    images: [{ src: pechatenCeh1 }, { src: pechatenCeh2 }, { src: pechatenCeh3 }, { src: pechatenCeh4 }, { src: pechatenCeh5 }],
   },
 ];
 
