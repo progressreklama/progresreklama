@@ -49,7 +49,7 @@ const Index = () => {
                 <span className="text-secondary">ВЪНШНА.</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8">
-                От идеята, през решението — до Вашия успех!
+                От идеята през решението — до Вашия успех!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
