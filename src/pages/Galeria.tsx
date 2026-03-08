@@ -52,7 +52,9 @@ const galleryCategories: GalleryCategory[] = [
   },
   {
     title: "Печатен цех",
-    images: [{ src: null }, { src: null }, { src: null }],
+    description:
+      "Нашият печатен цех е оборудван с професионални широкоформатни принтери за висококачествен печат върху различни материали — винил, фолио, платно, PVC и други. Разполагаме с модерна техника за печат, ламиниране и рязане.",
+    images: [{ src: pechatenCeh1 }, { src: pechatenCeh2 }, { src: pechatenCeh3 }, { src: pechatenCeh4 }, { src: pechatenCeh5 }],
   },
 ];
 
