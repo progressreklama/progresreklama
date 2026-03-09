@@ -3,7 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import FadeInSection from "@/components/FadeInSection";
 import banerStoikiImg from "@/assets/products/baner-stoiki.jpg";
-import kanavaImg from "@/assets/products/kanava.jpg";
+// @ts-ignore
+import kanavaImg from "@/assets/products/kanava.jpg?v=3";
 import tabeliImg from "@/assets/products/tabeli.jpg";
 import obemniBukviImg from "@/assets/products/obemni-bukvi.jpg";
 import snapRamkiImg from "@/assets/products/snap-ramki.jpg";
