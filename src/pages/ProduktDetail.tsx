@@ -3,7 +3,7 @@ import { Phone, Mail, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import FadeInSection from "@/components/FadeInSection";
 import banerStoikiImg from "@/assets/products/baner-stoiki.jpg";
-import popUpSteniImg from "@/assets/products/pop-up-steni.jpg";
+import kanavaImg from "@/assets/products/kanava.jpg";
 import tabeliImg from "@/assets/products/tabeli.jpg";
 import obemniBukviImg from "@/assets/products/obemni-bukvi.jpg";
 import snapRamkiImg from "@/assets/products/snap-ramki.jpg";
@@ -13,7 +13,7 @@ import poligrafiaImg from "@/assets/products/poligrafia.jpg";
 
 const productsData: Record<string, { title: string; category: string; desc: string; img: string }> = {
   "baner-stoiki": { title: "Банер стойки", category: "Стойки", desc: "Мобилни рекламни банер стойки, подходящи за изложения, панаири, промоции и фирмени събития. Лесни за сглобяване и транспортиране, с висококачествен печат.", img: banerStoikiImg },
-  "pop-up-steni": { title: "POP UP стени", category: "Стени", desc: "Сгъваеми POP UP стени за панаири и презентации. Голяма визуална площ, лесно сглобяване, професионален вид.", img: popUpSteniImg },
+  "kanava": { title: "Колаж или снимка на платно (канава)", category: "Канава", desc: "Уникални снимки и колажи, напечатани върху висококачествена памучна канава и опънати на естествена дървена подрамка. Водоустойчиви, екологични мастила с изключително качество.", img: kanavaImg },
   "tabeli": { title: "Табели", category: "Табели", desc: "Светещи и несветещи табели за вътрешна и външна реклама. Изработени от качествени материали с дълъг живот.", img: tabeliImg },
   "obemni-bukvi": { title: "Обемни букви", category: "Букви", desc: "Обемни рекламни букви от различни материали — стиропор, MDF, PVC, метал. Подходящи за фасади, интериор и събития.", img: obemniBukviImg },
   "snap-ramki": { title: "Снап рамки и лайсни", category: "Рамки", desc: "Алуминиеви снап рамки за лесна и бърза смяна на постери и рекламни материали.", img: snapRamkiImg },
