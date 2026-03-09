@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import FadeInSection from "@/components/FadeInSection";
 import banerStoikiImg from "@/assets/products/baner-stoiki.jpg";
-import popUpSteniImg from "@/assets/products/pop-up-steni.jpg";
+import kanavaImg from "@/assets/products/kanava-main.jpg";
 import tabeliImg from "@/assets/products/tabeli.jpg";
 import obemniBukviImg from "@/assets/products/obemni-bukvi.jpg";
 import snapRamkiImg from "@/assets/products/snap-ramki.jpg";
@@ -20,7 +20,7 @@ const services = [
 
 const products = [
   { title: "Банер стойки", slug: "baner-stoiki", img: banerStoikiImg },
-  { title: "POP UP стени", slug: "pop-up-steni", img: popUpSteniImg },
+  { title: "Колаж или снимка на платно (канава)", slug: "kanava", img: kanavaImg },
   { title: "Табели", slug: "tabeli", img: tabeliImg },
   { title: "Обемни букви", slug: "obemni-bukvi", img: obemniBukviImg },
   { title: "Снап-рамки", slug: "snap-ramki", img: snapRamkiImg },
