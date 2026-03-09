@@ -3,7 +3,7 @@ import { Phone, Mail, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import FadeInSection from "@/components/FadeInSection";
 import banerStoikiImg from "@/assets/products/baner-stoiki.jpg";
-import popUpSteniImg from "@/assets/products/pop-up-steni.jpg";
+import kanavaImg from "@/assets/products/kanava.jpg";
 import tabeliImg from "@/assets/products/tabeli.jpg";
 import obemniBukviImg from "@/assets/products/obemni-bukvi.jpg";
 import snapRamkiImg from "@/assets/products/snap-ramki.jpg";
