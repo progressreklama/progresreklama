@@ -13,7 +13,7 @@ import poligrafiaImg from "@/assets/products/poligrafia.jpg";
 
 const products = [
   { title: "Банер стойки", slug: "baner-stoiki", desc: "Мобилни рекламни стойки за изложения и промоции.", img: banerStoikiImg },
-  { title: "POP UP стени", slug: "pop-up-steni", desc: "Сгъваеми POP UP стени за панаири и презентации.", img: popUpSteniImg },
+  { title: "Колаж или снимка на платно (канава)", slug: "kanava", desc: "Уникални снимки и колажи, напечатани върху висококачествена канава и опънати на дървена подрамка.", img: kanavaImg },
   { title: "Табели", slug: "tabeli", desc: "Светещи и несветещи табели за вътрешна и външна реклама.", img: tabeliImg },
   { title: "Обемни букви", slug: "obemni-bukvi", desc: "Обемни букви от различни материали — стиропор, MDF, метал.", img: obemniBukviImg },
   { title: "Снап-рамки", slug: "snap-ramki", desc: "Алуминиеви рамки за лесна смяна на постери и реклами.", img: snapRamkiImg },
