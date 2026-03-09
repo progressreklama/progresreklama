@@ -20,7 +20,7 @@ const services = [
 
 const products = [
   { title: "Банер стойки", slug: "baner-stoiki", img: banerStoikiImg },
-  { title: "POP UP стени", slug: "pop-up-steni", img: popUpSteniImg },
+  { title: "Колаж или снимка на платно (канава)", slug: "kanava", img: kanavaImg },
   { title: "Табели", slug: "tabeli", img: tabeliImg },
   { title: "Обемни букви", slug: "obemni-bukvi", img: obemniBukviImg },
   { title: "Снап-рамки", slug: "snap-ramki", img: snapRamkiImg },
