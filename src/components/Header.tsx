@@ -12,7 +12,7 @@ const navItems = [
   { label: "За нас", path: "/za-nas" },
   { label: "Галерия", path: "/galeria" },
   { label: "Цени", path: "/ceni" },
-  { label: "Блог", path: "/blog" },
+  
   { label: "Контакти", path: "/kontakti" },
 ];
 
