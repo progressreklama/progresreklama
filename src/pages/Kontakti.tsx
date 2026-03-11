@@ -13,7 +13,11 @@ const Kontakti = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    navigate("/thank-you");
+    const subject = encodeURIComponent(`Запитване от ${form.name}`);
+    const body = encodeURIComponent(
+      `Име: ${form.name}\nИмейл: ${form.email}\nТелефон: ${form.phone || "Не е посочен"}\n\nСъобщение:\n${form.message}`
+    );
+    window.location.href = `mailto:progressreklama1@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
